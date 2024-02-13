@@ -1,0 +1,23 @@
+## env directories
+.firebase
+.github
+.husky
+.idea
+.ide-setup
+.nuxt
+.vscode
+.yarn
+environments
+functions
+node_modules
+public
+
+## files & patterns
+*yarn*
+*.config.js
+*.sh
+
+## untouchable sources
+src/assets
+src/locales
+src/static

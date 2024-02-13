@@ -1,0 +1,27 @@
+{
+  "projects": {
+    "default": "zksync-vue"
+  },
+  "targets": {
+    "zksync-vue": {
+      "hosting": {
+        "stage-mainnet": [
+          "zksync-vue"
+        ],
+        "prod-goerli": [
+          "goerli-wallet-zksync"
+        ],
+        "goerli-beta": [
+          "goerli-beta-wallet-zksync"
+        ]
+      }
+    },
+    "zksync-vue-mainnet": {
+      "hosting": {
+        "mainnet": [
+          "zksync-vue-mainnet"
+        ]
+      }
+    }
+  }
+}
